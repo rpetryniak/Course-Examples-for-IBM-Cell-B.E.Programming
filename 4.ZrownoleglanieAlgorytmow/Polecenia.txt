@@ -1,0 +1,13 @@
+Przykład pochodzi z oficjalnej dokumentacji Cella z katalogu:
+  Cell Examples/tutorial/euler
+
+#define PARTICLES 10000000
+
+./euler_scalar
+STEP1a_simd_aos/euler_simd_aos
+STEP1b_simd_soa/euler_simd_soa
+STEP2_spe/euler_spe
+STEP3_multi_spe/euler_multi_spe
+STEP4_tuned_multi_spe/euler_tuned_multi_spe
+
+export CELL_TOP=/opt/cell/sdk
